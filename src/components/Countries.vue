@@ -19,9 +19,6 @@ import gql from "graphql-tag"
 
 export default {
   name: "Countries",
-  props: {
-    msg: String,
-  },
   apollo: {
     countries: {
       query: gql_COUNTRIES,
