@@ -27,4 +27,7 @@ yarn build
 yarn lint
 ```
 
+### Credits
+Country data fetched from [trevorblades/countries](https://github.com/trevorblades/countries) via https://countries.trevorblades.com/
+
 Made by [tamm](https://github.com/tamm).
