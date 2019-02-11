@@ -15,7 +15,9 @@
     "apollo-client": "^2.4.12",
     "apollo-link": "^1.2.8",
     "apollo-link-state": "^0.4.2",
+    "express": "^4.16.4",
     "graphql": "^14.1.1",
+    "serve-static": "^1.13.2",
     "vue": "^2.5.22",
     "vue-apollo": "^3.0.0-beta.28"
   },
@@ -29,8 +31,6 @@
     "eslint": "^5.8.0",
     "eslint-plugin-graphql": "^3.0.3",
     "eslint-plugin-vue": "^5.0.0",
-    "express": "^4.16.4",
-    "serve-static": "^1.13.2",
     "vue-cli-plugin-apollo": "^0.19.1",
     "vue-template-compiler": "^2.5.21"
   },
