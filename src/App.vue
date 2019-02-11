@@ -22,7 +22,7 @@
 
     <Countries />
 
-    <div id="footer">Made by <a href="https://github.com/tamm">@tamm</a></div>
+    <div id="footer">Made by <a href="https://github.com/tamm">@tamm</a>. Country data from <a href="https://countries.trevorblades.com/">countries.trevorblades.com</a>.</div>
   </div>
 </template>
 
