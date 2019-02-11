@@ -3,32 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "serve",
+    "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ",
+    "start": "node server.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@vue/cli-shared-utils": "^3.4.0",
-    "@vue/eslint-config-prettier": "^4.0.1",
     "apollo-cache-inmemory": "^1.4.2",
     "apollo-cache-persist": "^0.1.1",
     "apollo-client": "^2.4.12",
     "apollo-link": "^1.2.8",
     "apollo-link-state": "^0.4.2",
-    "eslint-plugin-graphql": "^3.0.3",
     "graphql": "^14.1.1",
     "vue": "^2.5.22",
-    "vue-apollo": "^3.0.0-beta.28",
-    "vue-cli-plugin-apollo": "^0.19.1"
+    "vue-apollo": "^3.0.0-beta.28"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
     "@vue/cli-plugin-eslint": "^3.4.0",
     "@vue/cli-service": "^3.4.0",
+    "@vue/cli-shared-utils": "^3.4.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
+    "eslint-plugin-graphql": "^3.0.3",
     "eslint-plugin-vue": "^5.0.0",
+    "express": "^4.16.4",
+    "serve-static": "^1.13.2",
+    "vue-cli-plugin-apollo": "^0.19.1",
     "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
