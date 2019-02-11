@@ -7,7 +7,7 @@ I made this because I can't find any other examples of code where persistence of
 
 I do not claim that this is THE correct way to set these things up, but it works!
 
-Check out the resulting app at https://vue-graphql-example.herokuapp.com/
+Check out the resulting app at https://vue-apollo-example.herokuapp.com/
 
 ## Project setup
 ```
